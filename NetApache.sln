@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankingAccount", "BankingAccount", "{CA32C65A-D543-42BB-98C3-BC374CCDD01A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{D8608C47-23DF-40C5-BF6E-00FCEFF04978}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{EFA52E9E-BB35-4B3C-847A-751CE82E33A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{903F26D2-719B-4AE1-AA6A-1875F9431CCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{7B6DCBC4-82F8-4DFD-8019-649E55285329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Cqrs.Core", "Banking.Cqrs.Core\Banking.Cqrs.Core.csproj", "{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8608C47-23DF-40C5-BF6E-00FCEFF04978} = {CA32C65A-D543-42BB-98C3-BC374CCDD01A}
+		{903F26D2-719B-4AE1-AA6A-1875F9431CCB} = {D8608C47-23DF-40C5-BF6E-00FCEFF04978}
+		{7B6DCBC4-82F8-4DFD-8019-649E55285329} = {D8608C47-23DF-40C5-BF6E-00FCEFF04978}
+		{3FBC71D4-2EC7-4D42-80BF-954A2E2C77C8} = {EFA52E9E-BB35-4B3C-847A-751CE82E33A7}
+	EndGlobalSection
+EndGlobal
