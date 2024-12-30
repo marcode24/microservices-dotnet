@@ -6,9 +6,9 @@ namespace Banking.Account.Command.Infrastructure.KafkaEvents
 {
     public class AccountEventSourcingHandler : IEventSourcingHandler<AccountAggregate>
     {
-        private readonly AccountEventStore _accountEventStore;
+        private readonly IEventStore _accountEventStore;
 
-        public AccountEventSourcingHandler(AccountEventStore accountEventStore)
+        public AccountEventSourcingHandler(IEventStore accountEventStore)
         {
             _accountEventStore = accountEventStore;
         }
