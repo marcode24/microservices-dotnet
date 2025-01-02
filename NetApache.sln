@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Api", "Banking.Account.Query.Api\Banking.Account.Query.Api.csproj", "{2060813D-E77F-48DD-A2EC-32BE1ABEE725}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Query.Consumer", "Banking.Account.Query.Consumer\Banking.Account.Query.Consumer.csproj", "{C6E1465A-BEAE-44D2-8129-091795AD2229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,6 +98,10 @@ Global
 		{2060813D-E77F-48DD-A2EC-32BE1ABEE725}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2060813D-E77F-48DD-A2EC-32BE1ABEE725}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2060813D-E77F-48DD-A2EC-32BE1ABEE725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E1465A-BEAE-44D2-8129-091795AD2229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E1465A-BEAE-44D2-8129-091795AD2229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E1465A-BEAE-44D2-8129-091795AD2229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E1465A-BEAE-44D2-8129-091795AD2229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,5 +128,6 @@ Global
 		{5A16F2D8-8ECD-4186-8D0E-443CAE6FED91} = {862DD577-F531-4797-97CC-E300D0EAD625}
 		{A82ACA11-793A-4CFF-A959-FCC4591F84A3} = {4021770A-1810-4A47-BF9D-413761CF8655}
 		{2060813D-E77F-48DD-A2EC-32BE1ABEE725} = {C22FC42D-7425-4153-BEB4-16B1B1043D76}
+		{C6E1465A-BEAE-44D2-8129-091795AD2229} = {DE309C04-3FAA-4821-BFA0-B54DAC6D77BF}
 	EndGlobalSection
 EndGlobal
